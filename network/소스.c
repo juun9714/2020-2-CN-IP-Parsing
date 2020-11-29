@@ -10,7 +10,7 @@
 #define MF(frag) (frag & 0x20)
 #define FRAG_OFFSET(frag) (ntohs(frag) & (~0x6000))
 
-
+//struct
 //Structs
 typedef struct pcapHeader {
     int magic;
